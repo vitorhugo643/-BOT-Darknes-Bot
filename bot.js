@@ -8,7 +8,7 @@ bot.on('ready', () => {
 });
 bot.on('message', message => {
     if (message.content.startsWith('!!twitter')){
-        message.channel.send('Twitter:  hhttps://twitter.com/RedeDarknes');
+        message.channel.send('Twitter:  https://twitter.com/RedeDarknes');
     }
 });
 bot.on('message', message => {
