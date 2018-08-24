@@ -10,7 +10,7 @@ bot.on('message', message => {
     let arraymsg = message.content.split(" ");
 let cmd = arraymsg[0].toLowerCase()
 let args = message.content.split(" ").slice(1);
-if(cmd === '/anuncio'){
+if(cmd === '!anuncio'){
     const args = message.content.split(" ").slice(1);
     const prefix = '/'
     message.delete()
@@ -29,7 +29,7 @@ bot.on('message', message => {
     let arraymsg = message.content.split(" ");
 let cmd = arraymsg[0].toLowerCase()
 let args = message.content.split(" ").slice(1)
-    if(cmd === '/ban'){
+    if(cmd === '!ban'){
         const args = message.content.split(" ").slice(1);
         var razao = args.slice(1).join(" ")
             var membro = message.mentions.members.first();
